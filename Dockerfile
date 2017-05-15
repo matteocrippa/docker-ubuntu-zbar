@@ -36,10 +36,9 @@ RUN apt-get install -y python-dev python-tk python-numpy python3-dev python3-tk 
 
 # Install ZBar
 RUN apt-get install zbar-tools -y
-RUN apt-get install 
 RUN apt-get install libzbar-dev -y
 RUN apt-get install python-pip -y
-RUN pip install —-upgrade pip
+#RUN pip install —-upgrade pip
 RUN pip install pypng
 RUN pip install zbar
 RUN pip install pillow
